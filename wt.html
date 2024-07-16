@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>  
+    <head>
+        <link href="css/bootstrap.min.css" rel="stylesheet" >
+        <script src="css/bootstrap.min.js"></script>
+        <style>
+            .text{
+                font-size: 35px;
+                font-variant: bold;
+                color:darkorchid;
+                text-shadow: 2px 2px 7px skyblue;
+            }
+        </style>
+    </head>
+    <body style="background-image:url('beuty.avif');">
+        <center>
+            <div style="margin-top:200px;width:700px">
+                <form action="wt1.html" method="post">
+                    <div class="text mb-3">
+                        <b>Be Your Own Kind Beautiful</b>
+                    </div>
+                    <div class="form-floating mb-3" style="width:100%">
+                        <input type="text" name="name" id="name" placeholder="Enter Your Name" class="form-control" style="background-color:gray;color:white" autocomplete="off">
+                        <label for="name" class="text-light">Enter Your Name</label>
+                        <small></small>
+                    </div>
+                    <div  style="width:100%" class="form-floating">
+                        <input type="email" name="email" id="email" placeholder="Enter Email" class="form-control" style="background-color:gray;color:white" autocomplete="off">
+                        <label for="email" class="text-light">Enter Email</label>
+                        <small></small>
+                    </div>
+                    <div class="d-grid mt-3">
+                        <button class="btn btn-danger" type="submit" name="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </center>
+        <script src="wt1.js"></script>
+    </body>
+</html>
